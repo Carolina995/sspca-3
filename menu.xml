@@ -5,33 +5,59 @@
       <name>Coco</name>
       <year>2017</year>
       <duration>1:45</duration>
+      <Image >
+    <img alt="coco">https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_.jpg</img>
+    </Image>
     </movie>
     <movie>
       <name>Spider-Man: Into the Spider-verse</name>
       <year>2018</year>
       <duration>1:56</duration>
+      <Image >
+    <img  alt="spider-man">https://amc-theatres-res.cloudinary.com/v1579119853/amc-cdn/production/2/movies/48200/48153/Poster/p_800x1200_SpiderManIntotheSpiderVerse_02052019.jpg</img>
+    </Image>
     </movie>
     <movie>
       <name>Minions: The Rise of Gru</name>
       <year>2022</year>
       <duration>1:30</duration>
+        <Image >
+    <img  alt="minions">  <Image >
+    <img  alt="minions">https://m.media-amazon.com/images/M/MV5BZDQyODUwM2MtNzA0YS00ZjdmLTgzMjItZWRjN2YyYWE5ZTNjXkEyXkFqcGdeQXVyMTI2MzY1MjM1._V1_FMjpg_UX1000_.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
   </category>
   <category name="Action">
      <movie>
-      <name>Top Gun</name>
+      <name>Top Gun- Maverick</name>
       <year>2022</year>
       <duration>2:11</duration>
+       <Image >
+    <img  alt="top-gun">  <Image >
+    <img  alt="top-gun">https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
     <movie>
       <name>The Batman</name>
       <year>2022</year>
       <duration>2:56</duration>
+      <Image >
+    <img  alt="the-batman">  <Image >
+    <img  alt="the-batman">https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
     <movie>
       <name>007- No time to die</name>
       <year>2021</year>
       <duration>2:43</duration>
+       <Image >
+    <img  alt="007">  <Image >
+    <img  alt="007">https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
   </category>
   <category name="Comedy">
@@ -39,16 +65,31 @@
       <name>Hangover</name>
       <year>2009</year>
       <duration>1:40</duration>
+        <Image >
+    <img  alt="Hangover">  <Image >
+    <img  alt="Hangover">https://flxt.tmsimg.com/assets/p192248_p_v8_am.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
      <movie>
       <name>The Holiday</name>
       <year>2006</year>
       <duration>2:18</duration>
+       <Image >
+    <img  alt="Holiday">  <Image >
+    <img  alt="Holiday">https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/chameleon/title-movie/234085_HOLIDAY%20THE%20%282006%29_1400x2100_English.jpg?itok=pLk9e9kt</img>
+    </Image></img>
+    </Image>
     </movie>
      <movie>
       <name>Night of the Museum</name>
       <year>2006</year>
       <duration>1:48</duration>
+        <Image >
+    <img  alt="Night-Museum">  <Image >
+    <img  alt="Night-Museum">https://m.media-amazon.com/images/M/MV5BMjI1MzM2ODEyMV5BMl5BanBnXkFtZTgwNTIzODAwMzE@._V1_FMjpg_UX1000_.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
   </category>
   <category name="Drama">
@@ -56,16 +97,31 @@
       <name>Belfast</name>
       <year>2021</year>
       <duration>1:37</duration>
+         <Image >
+    <img  alt="Belfast">  <Image >
+    <img  alt="Belfast">https://m.media-amazon.com/images/M/MV5BYmY0NWVjNmUtMzFiNC00N2ViLWIxYTctOWZlMzkxZjY4ZmVkXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
      <movie>
       <name>Black Swan</name>
       <year>2010</year>
       <duration>1:48</duration>
+        <Image >
+    <img  alt="Black-Swan">  <Image >
+    <img  alt="Black-Swan">data:image/jpeg;base64,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</img>
+    </Image></img>
+    </Image>
     </movie>
      <movie>
       <name>Dune</name>
       <year>2021</year>
       <duration>2:35</duration>
+        <Image >
+    <img  alt="Dune">  <Image >
+    <img  alt="Dune">https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Dune_%282021_film%29.jpg/220px-Dune_%282021_film%29.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
   </category>
   <category name="Horror">
@@ -73,16 +129,30 @@
       <name>Nope</name>
       <year>2022</year>
       <duration>2:10</duration>
+        <Image >
+    <img  alt="Nope">  <Image >
+    <img  alt="Nope">https://m.media-amazon.com/images/M/MV5BMGIyNTI3NWItNTJkOS00MGYyLWE4NjgtZDhjMWQ4Y2JkZTU5XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_FMjpg_UX1000_.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
      <movie>
       <name>Scream</name>
       <year>2022</year>
       <duration>1:54</duration>
+       <Image >
+    <img  alt="Scream">  <Image >
+    <img  alt="Scream">https://m.media-amazon.com/images/M/MV5BYjExYTcwYmYtMWY2Zi00MGJlLTk3YjUtZTU1Zjg4MDc0Y2FjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg</img>
+    </Image></img>
+    </Image>
     </movie>
      <movie>
       <name>Halloween Ends</name>
       <year>2022</year>
       <duration>1:51</duration>
+       <Image >
+    <img  alt="Scream">  <Image >
+    <img  alt="Scream">https://m.media-amazon.com/images/M/MV5BNDVmYWRmYjgtMTZhMS00YWIwLWI3NDYtNWUyMzdkODVjMWE0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg</img>
+    </Image></img>
     </movie>
   </category>
 </menu>

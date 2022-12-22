@@ -5,18 +5,19 @@
 			<thead>
 				<tr>
 					<th>Select</th>
-					<th>Item</th>
-					<th>Price</th>
+					<th>Movie</th>
+					<th>Year</th>
+					<th>Poster</th>
 				</tr>
 			</thead>
 			<tbody>
 				<xsl:for-each select="//category">
 					<tr>
-						<td colspan="3">
+						<td colspan="4">
 							<xsl:value-of select="@name" />
 						</td>
 					</tr>
-					<xsl:for-each select="item">
+					<xsl:for-each select="movie">
 						<tr id="{position()}">
 							<xsl:attribute name="decaf">
 								<xsl:value-of select="boolean(@decaf)" />
@@ -25,14 +26,23 @@
 								<input name="item0" type="checkbox" />
 							</td>
 							<td>
-								<xsl:value-of select="listing" />
+								<xsl:value-of select="name" />
 							</td>
 							<td align="right">
-								<xsl:value-of select="price" />
+								<xsl:value-of select="year" />
 							</td>
+							<td>
+							<xsl:for-each select="Image">
+								<img width="150" height="200">
+								<xsl:attribute name="src">
+									<xsl:value-of select="."/>
+								</xsl:attribute>
+								</img>
+							</xsl:for-each>
 						</tr>
 					</xsl:for-each>
 				</xsl:for-each>
+				
 			</tbody>
 		</table>
 	</xsl:template>
