@@ -1,73 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-  <category name="Coffee">
-    <item>
-      <listing>Espresso</listing>
-      <price>3.10</price>
-    </item>
-    <item>
-      <listing>Latte</listing>
-      <price>3.50</price>
-    </item>
-    <item decaf="true">
-      <listing>Americano</listing>
-      <price>3.20</price>
-    </item>
+  <category name="Animation">
+    <movie>
+      <name>Coco</name>
+      <year>2017</year>
+      <duration>1:45</duration>
+    </movie>
+    <movie>
+      <name>Spider-Man: Into the Spider-verse</name>
+      <year>2018</year>
+      <duration>1:56</duration>
+    </movie>
+    <movie>
+      <name>Minions: The Rise of Gru</name>
+      <year>2022</year>
+      <duration>1:30</duration>
+    </movie>
   </category>
-  <category name="Frappe">
-    <item>
-      <listing>Salted Caramel Frappé</listing>
-      <price>4.50</price>
-    </item>
-    <item>
-      <listing>Pumpkin Spice Frappé</listing>
-      <price>5.00</price>
-    </item>
-    <item decaf="true">
-      <listing>Mint Chocolate Frappé</listing>
-      <price>5.00</price>
-    </item>
+  <category name="Action">
+     <movie>
+      <name>Top Gun</name>
+      <year>2022</year>
+      <duration>2:11</duration>
+    </movie>
+    <movie>
+      <name>The Batman</name>
+      <year>2022</year>
+      <duration>2:56</duration>
+    </movie>
+    <movie>
+      <name>007- No time to die</name>
+      <year>2021</year>
+      <duration>2:43</duration>
+    </movie>
   </category>
-  <category name="Iced Coffee">
-    <item>
-      <listing>Iced Toasted Vanilla</listing>
-      <price>4.00</price>
-    </item>
-    <item>
-      <listing>Iced Shaken Espresso</listing>
-      <price>3.80</price>
-    </item>
-    <item decaf="true">
-      <listing>Iced Flat White</listing>
-      <price>4.10</price>
-    </item>
+  <category name="Comedy">
+    <movie>
+      <name>Hangover</name>
+      <year>2009</year>
+      <duration>1:40</duration>
+    </movie>
+     <movie>
+      <name>The Holiday</name>
+      <year>2006</year>
+      <duration>2:18</duration>
+    </movie>
+     <movie>
+      <name>Night of the Museum</name>
+      <year>2006</year>
+      <duration>1:48</duration>
+    </movie>
   </category>
-  <category name="Tea">
-    <item>
-      <listing>Mint</listing>
-      <price>2.50</price>
-    </item>
-    <item>
-      <listing>Green</listing>
-      <price>2.70</price>
-    </item>
-    <item decaf="true">
-      <listing>Breakfast</listing>
-      <price>2.50</price>
-    </item>
+  <category name="Drama">
+    <movie>
+      <name>Belfast</name>
+      <year>2021</year>
+      <duration>1:37</duration>
+    </movie>
+     <movie>
+      <name>Black Swan</name>
+      <year>2010</year>
+      <duration>1:48</duration>
+    </movie>
+     <movie>
+      <name>Dune</name>
+      <year>2021</year>
+      <duration>2:35</duration>
+    </movie>
   </category>
-  <category name="Deserts">
-    <item>
-      <listing>Chocolate Brownie</listing>
-      <price>4.50</price>
-    </item>
-    <item>
-      <listing>Vanila Cheescake</listing>
-      <price>4.50</price>
-    </item>
-    <item>
-      <listing>Carrot Cake</listing>
-      <price>5.00</price>
-    </item>
+  <category name="Horror">
+    <movie>
+      <name>Nope</name>
+      <year>2022</year>
+      <duration>2:10</duration>
+    </movie>
+     <movie>
+      <name>Scream</name>
+      <year>2022</year>
+      <duration>1:54</duration>
+    </movie>
+     <movie>
+      <name>Halloween Ends</name>
+      <year>2022</year>
+      <duration>1:51</duration>
+    </movie>
   </category>
 </menu>
