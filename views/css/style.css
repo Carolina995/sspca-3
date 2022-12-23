@@ -1,5 +1,7 @@
 body {
     margin-bottom: 60px;
+    background-image: url("https://wallpaperaccess.com/full/552581.jpg");
+    background-color: #cccccc;
 }
 
 table {
@@ -25,6 +27,6 @@ th {
 }
 
 .selected {
-    background-color: #dc3545;
+    background-color: #dca435;
     color: #FFF;
 }
