@@ -13,7 +13,7 @@
 			<tbody>
 				<xsl:for-each select="//category">
 					<tr>
-						<td colspan="4">
+						<td colspan="3">
 							<xsl:value-of select="@name" />
 						</td>
 					</tr>
@@ -25,28 +25,31 @@
 							<td align="center">
 								<input name="item0" type="checkbox" />
 							</td>
+							
 							<td>
 								<xsl:value-of select="name" />
 							</td>
 							<td align="right">
 								<xsl:value-of select="year" />
 							</td>
-							<!-- This code is from stackoverflow (in Portuguese): https://pt.stackoverflow.com/questions/11322/como-exibir-imagens-com-xsl-com-a-src-da-img-do-arquivo-xml  
-							Starts here -->
 							<td>
-							<xsl:for-each select="Image">
-								<img width="150" height="200">
-								<xsl:attribute name="src">
-									<xsl:value-of select="."/>
-								</xsl:attribute>
-								</img>
-							</xsl:for-each>
-							<!--Finish here-->
+								<!-- This code is from stackoverflow (in Portuguese): https://pt.stackoverflow.com/questions/11322/como-exibir-imagens-com-xsl-com-a-src-da-img-do-arquivo-xml  
+								Starts here -->
+								
+								<xsl:for-each select="Image">
+									<img width="150" height="200">
+									<xsl:attribute name="src">
+										<xsl:value-of select="."/>
+									</xsl:attribute>
+									</img>
+								</xsl:for-each>
+								<!--Finish here-->
+							</td>
 						</tr>
 					</xsl:for-each>
 				</xsl:for-each>
-				
 			</tbody>
 		</table>
 	</xsl:template>
 </xsl:transform>
+

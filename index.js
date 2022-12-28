@@ -48,7 +48,7 @@ router.post('/post/json', function(req, res){
         console.log(obj);
         XMLtoJSON('menu.xml', function(err, result) {
             if (err) throw (err);
-            result.menu.category[obj.sec_n].item.push({'name': obj.name, 'year': obj.year});
+            result.menu.category[obj.sec_n].movie.push({'name': obj.name, 'year': obj.year});
             console.log(JSON.stringify(result, null, " "));
             JSONtoXML('menu.xml', result, function(err){
                 if (err) console.log(err);
@@ -84,3 +84,7 @@ server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() 
     const addr = server.address();
     console.log("Server listening at", addr.address + ":" + addr.port)
 });
+
+
+
+
