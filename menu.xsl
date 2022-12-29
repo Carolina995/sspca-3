@@ -37,11 +37,11 @@
 								Starts here -->
 								
 								<xsl:for-each select="Image">
-									<img width="150" height="200">
+									<image width="150" height="200">
 									<xsl:attribute name="src">
 										<xsl:value-of select="."/>
 									</xsl:attribute>
-									</img>
+									</image>
 								</xsl:for-each>
 								<!--Finish here-->
 							</td>

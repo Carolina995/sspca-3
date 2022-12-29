@@ -26,8 +26,9 @@
       </Image>
     </movie>
     <movie>
-      <name/>
-      <year/>
+      <name>Encanto</name>
+      <year>2021</year>
+      <Image>https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Encanto_poster.jpg/220px-Encanto_poster.jpg</Image>
     </movie>
   </category>
   <category name="Action">
