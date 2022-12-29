@@ -4,6 +4,7 @@
 		<table id="menuTable" border="1" class="indent">
 			<thead>
 				<tr>
+				<!-- change the header rows -->
 					<th>Select</th>
 					<th>Movie</th>
 					<th>Year</th>
@@ -19,7 +20,7 @@
 					</tr>
 					<xsl:for-each select="movie">
 						<tr id="{position()}">
-							<xsl:attribute name="Animation">
+							<xsl:attribute name="Animation"><!--change for animation as the only one that kids can see it-->
 								<xsl:value-of select="boolean(@Animation)" />
 							</xsl:attribute>
 							<td align="center">

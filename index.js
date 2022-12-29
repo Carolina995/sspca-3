@@ -42,13 +42,12 @@ router.get('/get/html', function(req, res) {
 
     res.end(html.toString());
 });
-
 router.post('/post/json', function(req, res){
     function appendJSON(obj){
         console.log(obj);
         XMLtoJSON('menu.xml', function(err, result) {
             if (err) throw (err);
-            result.menu.category[obj.sec_n].movie.push({'name': obj.name, 'year': obj.year, 'Image': obj.image});
+            result.menu.category[obj.sec_n].movie.push({'name': obj.name, 'year': obj.year, 'Image': obj.image});// add Image
             console.log(JSON.stringify(result, null, " "));
             JSONtoXML('menu.xml', result, function(err){
                 if (err) console.log(err);
